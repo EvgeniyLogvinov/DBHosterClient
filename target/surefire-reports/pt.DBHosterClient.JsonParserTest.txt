@@ -1,0 +1,84 @@
+-------------------------------------------------------------------------------
+Test set: pt.DBHosterClient.JsonParserTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 0, Errors: 8, Skipped: 0, Time elapsed: 0.035 sec <<< FAILURE!
+testHaveNotParseColumns(pt.DBHosterClient.JsonParserTest)  Time elapsed: 0.002 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: javax/json/stream/JsonParsingException
+	at pt.DBHosterClient.JsonParserTest.testHaveNotParseColumns(JsonParserTest.java:43)
+Caused by: java.lang.ClassNotFoundException: javax.json.stream.JsonParsingException
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 29 more
+
+testHaveNotParseRows(pt.DBHosterClient.JsonParserTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: javax/json/stream/JsonParsingException
+	at pt.DBHosterClient.JsonParserTest.testHaveNotParseRows(JsonParserTest.java:55)
+Caused by: java.lang.ClassNotFoundException: javax.json.stream.JsonParsingException
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 29 more
+
+testHaveNotParseError(pt.DBHosterClient.JsonParserTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: javax/json/stream/JsonParsingException
+	at pt.DBHosterClient.JsonParserTest.testHaveNotParseError(JsonParserTest.java:25)
+Caused by: java.lang.ClassNotFoundException: javax.json.stream.JsonParsingException
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 29 more
+
+testParseColumns(pt.DBHosterClient.JsonParserTest)  Time elapsed: 0.002 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: javax/json/stream/JsonParsingException
+	at pt.DBHosterClient.JsonParserTest.testParseColumns(JsonParserTest.java:37)
+Caused by: java.lang.ClassNotFoundException: javax.json.stream.JsonParsingException
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 29 more
+
+testGetColumns(pt.DBHosterClient.JsonParserTest)  Time elapsed: 0.002 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: javax/json/stream/JsonParsingException
+	at pt.DBHosterClient.JsonParserTest.testGetColumns(JsonParserTest.java:19)
+Caused by: java.lang.ClassNotFoundException: javax.json.stream.JsonParsingException
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 29 more
+
+testParseRows(pt.DBHosterClient.JsonParserTest)  Time elapsed: 0.003 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: javax/json/stream/JsonParsingException
+	at pt.DBHosterClient.JsonParserTest.testParseRows(JsonParserTest.java:49)
+Caused by: java.lang.ClassNotFoundException: javax.json.stream.JsonParsingException
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 29 more
+
+testParseError(pt.DBHosterClient.JsonParserTest)  Time elapsed: 0.004 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: javax/json/stream/JsonParsingException
+	at pt.DBHosterClient.JsonParserTest.testParseError(JsonParserTest.java:31)
+Caused by: java.lang.ClassNotFoundException: javax.json.stream.JsonParsingException
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 29 more
+
+testGetRows(pt.DBHosterClient.JsonParserTest)  Time elapsed: 0.018 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: javax/json/stream/JsonParsingException
+	at pt.DBHosterClient.JsonParserTest.testGetRows(JsonParserTest.java:13)
+Caused by: java.lang.ClassNotFoundException: javax.json.stream.JsonParsingException
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 29 more
+
